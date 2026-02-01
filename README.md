@@ -6,10 +6,7 @@ The starting database is a dirty Claude-generated dataset about ETFs (Exchange T
 
 ## Process
 
-A dirty dataset about ETFs was generated using Claude.
-
-The resulting CSV file was then imported into MySQL.
-
+A dirty dataset about ETFs was generated using Claude, and the resulting CSV file was imported into MySQL.
 
 Let us first have a look at our data.
 
