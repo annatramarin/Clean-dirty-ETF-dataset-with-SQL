@@ -1,4 +1,4 @@
-# Overview
+# Clean a dirty ETF dataset with SQL
 
 This repository contains the code and data of a SQL data cleaning project. 
 
