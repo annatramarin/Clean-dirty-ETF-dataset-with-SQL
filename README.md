@@ -36,6 +36,7 @@ limit 10;
 - `dirty_etf_dataset.csv` - Original dirty dataset with data quality issues
 - `etf_data_cleaning.sql` - Complete SQL script with all cleaning steps
 - `README.md` - Project documentation (this file)
+- `clean_etf_dataset.csv` - Cleaned output dataset
 
 ## Data Quality Issues Addressed
 
