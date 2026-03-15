@@ -297,6 +297,11 @@ UPDATE etf_dataset_staging_2
 SET dividend_yield = NULL
 WHERE (dividend_yield = '' OR dividend_yield = '0' OR TRIM(dividend_yield) = '');
 
+-- Limit expense ratio values to 2 decimals
+UPDATE etf_dataset_staging_2
+SET expense_ratio = 0.09
+WHERE ticker = 'SPY';
+
 -- The table looks fine now
 SELECT *
 FROM etf_dataset_staging_2;
